@@ -14,6 +14,11 @@ body {
   margin-bottom: 0 !important;
 }
 
+#right-menu-bar {
+  box-shadow: none;
+  border: none;
+}
+
 #sale-bar {
   background-color: #0067B8;
   padding: 12px 36px;
@@ -45,7 +50,7 @@ body {
 }
 
 .slide {
-  /*padding: 0px 54px 0px 54px !important;*/
+
 }
 
 .next {
