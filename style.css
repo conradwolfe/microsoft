@@ -1,0 +1,93 @@
+body {
+  padding: 0 54px;
+  margin: 0 1.5%;
+}
+
+/* IDs */
+
+#menu-bar {
+  height: 54px;
+  box-shadow: none;
+  border: none;
+  /*padding-left: 54px;
+  padding-right: 54px;*/
+  margin-bottom: 0 !important;
+}
+
+#sale-bar {
+  background-color: #0067B8;
+  padding: 12px 36px;
+  margin: 0 0 !important;
+}
+
+#slide-text-one {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  margin: 15px;
+}
+
+#column-one, #column-two, #column-three, #column-four {
+  margin-top: 50px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  padding: 25px 4% 25px 5%;
+  margin-left: -6%;
+  margin-right: -6%;
+}
+
+/* Classes */
+
+.slide-show {
+  position: relative;
+}
+
+.slide {
+  /*padding: 0px 54px 0px 54px !important;*/
+}
+
+.next {
+  position: absolute;
+  top: 45%;
+  right: 0.1%;
+}
+
+.prev {
+  position: absolute;
+  top: 45%;
+  left: 0.1%;
+}
+
+.menu-icon {
+  margin: 0 1rem 0 1rem !important;
+}
+
+.shop-link>a:hover {
+  text-decoration: underline;
+}
+
+.shop-link>i {
+  color: #0067B8;
+}
+
+
+
+
+/*Changes to semantic stuff*/
+
+.ui.menu .item {
+  padding: 0.928571em 0.642857em !important;
+}
+
+.ui.list .list>a.item, .ui.list>a.item {
+  color: #616161;
+  padding: 0.714286em 0;
+  font-size: 0.7em;
+}
+
+.ui.left.aligned.column>.ui.footer.header {
+  color: #616161 !important;
+}
+
